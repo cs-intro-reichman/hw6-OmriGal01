@@ -166,7 +166,7 @@ public class Runigram {
 		int avgRed = avgWithAlpha(c1.getRed(), c2.getRed(), alpha);
 		int avgGreen = avgWithAlpha(c1.getGreen(), c2.getGreen(), alpha);
 		int avgBlue = avgWithAlpha(c1.getBlue(), c2.getBlue(), alpha);
-		return new Color(avgRed, avgGreen, avgGreen);
+		return new Color(avgRed, avgGreen, avgBlue);
 	}
 	
 	/**
